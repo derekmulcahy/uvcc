@@ -20,7 +20,7 @@ ul li:last-child {
 }
 a, a:visited{
   text-decoration: none;
-  color: rgb(30, 0, 255);
+  color: rgb(31, 0, 255);
 }
 dd, dl {
   margin: 0px;
