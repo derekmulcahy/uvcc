@@ -1,26 +1,33 @@
-html {
+body {
   font-family:Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 ul {
   list-style-type: none;
   margin: 0;
+  margin-top: 10pt;
   padding: 0;
-  border: 2px solid #ddd;
-  border-radius: 8px;
+  border: 2pt solid #ddd;
+  border-radius: 10pt;
 }
 li {
-  padding: 6px;
-  border-bottom: 2px solid #ddd;
+  padding: 5pt;
+  border-bottom: 2pt solid #ddd;
 }
 ul li:last-child {
   border-bottom: none;
 }
-a {
+a, a:visited{
   text-decoration: none;
+  color: rgb(30, 0, 255);
 }
 dd, dl {
   margin: 0px;
   padding: 6px;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: xx-large;
+  }
 }
